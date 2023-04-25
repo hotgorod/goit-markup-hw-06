@@ -389,6 +389,10 @@ img {
   border-color: var(--accent-color);
 }
 
+.modal-policy-link {
+  color: var(--accent-color);
+}
+
 .button-close {
   position: absolute;
   display: block;
@@ -660,7 +664,7 @@ img {
   display: inline-block;
   margin-right: 24px;
   width: 264px;
-  height: 40px;
+
   background-color: transparent;
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
