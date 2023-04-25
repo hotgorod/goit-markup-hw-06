@@ -394,9 +394,13 @@
           </ul>
         </div>
         <div class="subscribe">
-          <p class="social-media-text">Subscribe</p>
+          <!-- <p class="social-media-text">Subscribe</p> -->
           <form name="Subscribe">
             <!-- <label class="subscribe-label" for="email"> -->
+
+            <label for="sub-input"
+              ><span class="social-media-text">Subscribe</span></label
+            >
             <div class="subscribe-form-wrapper">
               <input
                 class="subscribe-input"
@@ -404,11 +408,12 @@
                 name="email"
                 placeholder="E-mail"
                 required
+                id="sub-input"
               />
               <!-- </label> -->
               <button class="button" type="submit">
                 <div class="subscribe-btn-name">
-                  <span>Subscribe</span>
+                  Subscribe
                   <svg class="" width="24" height="20">
                     <use href="./images/icon.svg#icon-subscribe"></use>
                   </svg>

@@ -634,6 +634,7 @@ img {
 }
 
 .social-media-text {
+  display: inline-block;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -658,6 +659,10 @@ img {
 }
 
 /* Subscribe form */
+
+.subscribe {
+  display: block;
+}
 
 .subscribe-input {
   padding-left: 8px;
